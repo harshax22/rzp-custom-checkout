@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+    <body>
+
+            <div>
+                    <h3>Cards</h3>
+                    <form id = "new-card-payment">
+                        <input type="text" name="amount" placeholder="amount">
+                        <input type="email" name="email" placeholder="email address">
+                        <input type="text" name="contact" placeholder="contact">
+                        <input type="text" name="order" placeholder="RZP Order ID">
+                        <input type="text" name="cardName" placeholder="Card Name">
+                        <input type="number" name="cardNumber" placeholder="Card Number">
+                        <input type="password" name="cvv" placeholder="CVV">
+                        <input type="text" name="expiryMonth" placeholder="Expiry Month">
+                        <input type="text" name="expiryYear" placeholder="Expiry Year">
+                        <button type = "submit">Submit</button>
+                    </form>
+                </div>
+
+                <div>
+                    <h3>Netbanking</h3>
+                    <form id = "new-nb-payment">
+                        <input type="number" name="amount" placeholder="amount">
+                        <input type="text" name="email" placeholder="email">
+                        <input type="text" name="contact" placeholder="contact">
+                        <input type="text" name="order" placeholder="RZP Order ID">
+                        <button type = "submit">Submit</button>
+                    </form>
+                </div>
+                
+                <div>
+                        <h3>Wallets</h3>
+                        <form id="new-wallet-payment">
+                                <input type="text" name="amount" placeholder="amount" required>
+                                <input type="email" name="email" placeholder="email address" required>
+                                <input type="text" name="contact" placeholder="contact" required>
+                                <input type="text" name="order" placeholder="RZP Order ID" required>
+                                <button type="submit">Submit</button>
+                        </form>
+                </div> 
+                
+                <div>
+                    <h3>UPI</h3>
+                      <form id="new-upi-payment">
+                            <input type="text" name="amount" placeholder="amount" required>
+                            <input type="email" name="email" placeholder="email address" required>
+                            <input type="text" name="contact" placeholder="contact" required>
+                            <input type="text" name="order" placeholder="RZP Order ID" required>
+                            <input type="email" name="vpa" placeholder="Your VPA" required>
+                            <button type="submit">Submit</button>
+
+                      </form>
+                </div>
+       
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <link rel="stylesheet" href="styles.css">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script> 
+        <script src="https://checkout.razorpay.com/v1/razorpay.js"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
