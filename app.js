@@ -5,7 +5,7 @@ const upiElement = document.querySelector("#new-upi-payment");
 
 let options = {}
 const razorpay = new Razorpay({
-   key: 'rzp_live_QsTUblc0VNpjJE',
+   key: 'rzp_test_XTPcW5Cavk3JxL',
    image: 'https://venturebeat.com/wp-content/uploads/2016/06/netflix-logo.png?w=1200&strip=all' 
 });
 
